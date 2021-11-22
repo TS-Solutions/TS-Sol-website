@@ -1,12 +1,16 @@
 html {
   scroll-behavior: smooth; }
 
+.ts-logo{
+  max-width: 8rem;
+}
+
 #intro {
   background: url("../img/panorama-3094696_1920.jpg") no-repeat center center;
   background-size: cover; }
 
 .top-nav-collapse {
-  background-color: #3949ab !important; }
+  background-color: #3d3d3d !important; }
 
 .navbar:not(.top-nav-collapse) {
   background: transparent !important; }
@@ -26,7 +30,7 @@ html {
 
 .hm-gradient .site-bg-img {
   background: rgba(42, 27, 161, 0.7);
-  background: linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%); }
+  background: linear-gradient(45deg, rgb(219 21 21 / 70%), rgb(120 120 120 / 70%) 100%); }
 
 @media (max-width: 450px) {
   .margins {
